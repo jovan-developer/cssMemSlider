@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Mem Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="radio" name="image-slide" checked="checked" id="dot1" />
+    <input type="radio" name="image-slide" checked="checked" id="dot2" />
+    <input type="radio" name="image-slide" checked="checked" id="dot3" />
+    <input type="radio" name="image-slide" checked="checked" id="dot4" />
+    <input type="radio" name="image-slide" checked="checked" id="dot5" />
+    <div class="wrapper">
+      <label for="dot1" tabindex="0"><span></span></label>
+      <div class="slide" id="slide1">
+        <picture>
+          <img src="./1.png" alt="Мем 1" />
+        </picture>
+        <div class="slide__text" id="text1">Какой-то смешной мем</div>
+      </div>
+
+      <label for="dot2" tabindex="0"><span></span></label>
+      <div class="slide" id="slide2">
+        <picture>
+          <img src="./2.png" alt="Мем 2" />
+        </picture>
+        <div class="slide__text">Второй смешной мем</div>
+      </div>
+
+      <label for="dot3" tabindex="0"><span></span></label>
+      <div class="slide" id="slide3">
+        <picture>
+          <img src="./3.jpg" alt="Мем 3" />
+        </picture>
+        <div class="slide__text">Колобок повесился</div>
+      </div>
+
+      <label for="dot4" tabindex="0"><span></span></label>
+      <div class="slide" id="slide4">
+        <picture>
+          <img src="./4.jpg" alt="Мем 4" />
+        </picture>
+        <div class="slide__text">Рыбка утонула</div>
+      </div>
+
+      <label for="dot5" tabindex="0"><span></span></label>
+      <div class="slide" id="slide5">
+        <picture>
+          <img src="./2.png" alt="Мем 5" />
+        </picture>
+        <div class="slide__text">Огонь обжегся</div>
+      </div>
+    </div>
+  </body>
+</html>
